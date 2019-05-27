@@ -1,0 +1,789 @@
+fileFormatVersion: 2
+guid: 26a4e121904665242954040d9600e210
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Head
+    100002: //RootNode
+    100004: Octopus
+    100006: OctopusLOD
+    100008: OctopusSkeleton
+    100010: tentacleLeft1
+    100012: tentacleLeft10
+    100014: tentacleLeft11
+    100016: tentacleLeft12
+    100018: tentacleLeft12_end
+    100020: tentacleLeft13
+    100022: tentacleLeft14
+    100024: tentacleLeft15
+    100026: tentacleLeft16
+    100028: tentacleLeft16_end
+    100030: tentacleLeft2
+    100032: tentacleLeft3
+    100034: tentacleLeft4
+    100036: tentacleLeft4_end
+    100038: tentacleLeft9
+    100040: tentacleRight1
+    100042: tentacleRight10
+    100044: tentacleRight11
+    100046: tentacleRight12
+    100048: tentacleRight12_end
+    100050: tentacleRight13
+    100052: tentacleRight14
+    100054: tentacleRight15
+    100056: tentacleRight16
+    100058: tentacleRight16_end
+    100060: tentacleRight2
+    100062: tentacleRight3
+    100064: tentacleRight4
+    100066: tentacleRight4_end
+    100068: tentacleRight5
+    100070: tentacleRight5.001
+    100072: tentacleRight6
+    100074: tentacleRight6.001
+    100076: tentacleRight7
+    100078: tentacleRight7.001
+    100080: tentacleRight8
+    100082: tentacleRight8.001
+    100084: tentacleRight8.001_end
+    100086: tentacleRight8_end
+    100088: tentacleRight9
+    400000: Head
+    400002: Octopus
+    400004: //RootNode
+    400006: OctopusLOD
+    400008: OctopusSkeleton
+    400010: tentacleLeft1
+    400012: tentacleLeft10
+    400014: tentacleLeft11
+    400016: tentacleLeft12
+    400018: tentacleLeft12_end
+    400020: tentacleLeft13
+    400022: tentacleLeft14
+    400024: tentacleLeft15
+    400026: tentacleLeft16
+    400028: tentacleLeft16_end
+    400030: tentacleLeft2
+    400032: tentacleLeft3
+    400034: tentacleLeft4
+    400036: tentacleLeft4_end
+    400038: tentacleLeft9
+    400040: tentacleRight1
+    400042: tentacleRight10
+    400044: tentacleRight11
+    400046: tentacleRight12
+    400048: tentacleRight12_end
+    400050: tentacleRight13
+    400052: tentacleRight14
+    400054: tentacleRight15
+    400056: tentacleRight16
+    400058: tentacleRight16_end
+    400060: tentacleRight2
+    400062: tentacleRight3
+    400064: tentacleRight4
+    400066: tentacleRight4_end
+    400068: tentacleRight5
+    400070: tentacleRight5.001
+    400072: tentacleRight6
+    400074: tentacleRight6.001
+    400076: tentacleRight7
+    400078: tentacleRight7.001
+    400080: tentacleRight8
+    400082: tentacleRight8.001
+    400084: tentacleRight8.001_end
+    400086: tentacleRight8_end
+    400088: tentacleRight9
+    4300000: OctopusLOD
+    4300002: Octopus
+    7400000: death
+    7400002: idle
+    7400004: idle swim
+    7400006: ink attack
+    7400008: OctopusSkeleton|pose
+    7400010: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Octopus
+    13700002: OctopusLOD
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OctopusMaterial
+    second: {fileID: 2100000, guid: 7dc58e9d42afad14194f56bbc069eded, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: OctopusSkeleton|death
+      firstFrame: 0
+      lastFrame: 337
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Octopus
+        weight: 1
+      - path: OctopusLOD
+        weight: 1
+      - path: OctopusSkeleton
+        weight: 1
+      - path: OctopusSkeleton/Head
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3/tentacleLeft4
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3/tentacleLeft4/tentacleLeft4_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11/tentacleLeft12
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11/tentacleLeft12/tentacleLeft12_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15/tentacleLeft16
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15/tentacleLeft16/tentacleLeft16_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3/tentacleRight4
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3/tentacleRight4/tentacleRight4_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7/tentacleRight8
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7/tentacleRight8/tentacleRight8_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001/tentacleRight8.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001/tentacleRight8.001/tentacleRight8.001_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11/tentacleRight12
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11/tentacleRight12/tentacleRight12_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15/tentacleRight16
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15/tentacleRight16/tentacleRight16_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: OctopusSkeleton|idle
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Octopus
+        weight: 1
+      - path: OctopusLOD
+        weight: 1
+      - path: OctopusSkeleton
+        weight: 1
+      - path: OctopusSkeleton/Head
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3/tentacleLeft4
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3/tentacleLeft4/tentacleLeft4_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11/tentacleLeft12
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11/tentacleLeft12/tentacleLeft12_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15/tentacleLeft16
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15/tentacleLeft16/tentacleLeft16_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3/tentacleRight4
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3/tentacleRight4/tentacleRight4_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7/tentacleRight8
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7/tentacleRight8/tentacleRight8_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001/tentacleRight8.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001/tentacleRight8.001/tentacleRight8.001_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11/tentacleRight12
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11/tentacleRight12/tentacleRight12_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15/tentacleRight16
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15/tentacleRight16/tentacleRight16_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle swim
+      takeName: OctopusSkeleton|idle swim
+      firstFrame: 0
+      lastFrame: 68
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Octopus
+        weight: 1
+      - path: OctopusLOD
+        weight: 1
+      - path: OctopusSkeleton
+        weight: 1
+      - path: OctopusSkeleton/Head
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3/tentacleLeft4
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3/tentacleLeft4/tentacleLeft4_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11/tentacleLeft12
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11/tentacleLeft12/tentacleLeft12_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15/tentacleLeft16
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15/tentacleLeft16/tentacleLeft16_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3/tentacleRight4
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3/tentacleRight4/tentacleRight4_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7/tentacleRight8
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7/tentacleRight8/tentacleRight8_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001/tentacleRight8.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001/tentacleRight8.001/tentacleRight8.001_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11/tentacleRight12
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11/tentacleRight12/tentacleRight12_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15/tentacleRight16
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15/tentacleRight16/tentacleRight16_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ink attack
+      takeName: OctopusSkeleton|ink attack
+      firstFrame: 0
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Octopus
+        weight: 1
+      - path: OctopusLOD
+        weight: 1
+      - path: OctopusSkeleton
+        weight: 1
+      - path: OctopusSkeleton/Head
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3/tentacleLeft4
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3/tentacleLeft4/tentacleLeft4_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11/tentacleLeft12
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11/tentacleLeft12/tentacleLeft12_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15/tentacleLeft16
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15/tentacleLeft16/tentacleLeft16_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3/tentacleRight4
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3/tentacleRight4/tentacleRight4_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7/tentacleRight8
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7/tentacleRight8/tentacleRight8_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001/tentacleRight8.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001/tentacleRight8.001/tentacleRight8.001_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11/tentacleRight12
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11/tentacleRight12/tentacleRight12_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15/tentacleRight16
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15/tentacleRight16/tentacleRight16_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: OctopusSkeleton|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Octopus
+        weight: 1
+      - path: OctopusLOD
+        weight: 1
+      - path: OctopusSkeleton
+        weight: 1
+      - path: OctopusSkeleton/Head
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3/tentacleLeft4
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft1/tentacleLeft2/tentacleLeft3/tentacleLeft4/tentacleLeft4_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11/tentacleLeft12
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft9/tentacleLeft10/tentacleLeft11/tentacleLeft12/tentacleLeft12_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15/tentacleLeft16
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleLeft13/tentacleLeft14/tentacleLeft15/tentacleLeft16/tentacleLeft16_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3/tentacleRight4
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight1/tentacleRight2/tentacleRight3/tentacleRight4/tentacleRight4_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7/tentacleRight8
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5/tentacleRight6/tentacleRight7/tentacleRight8/tentacleRight8_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001/tentacleRight8.001
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight5.001/tentacleRight6.001/tentacleRight7.001/tentacleRight8.001/tentacleRight8.001_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11/tentacleRight12
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight9/tentacleRight10/tentacleRight11/tentacleRight12/tentacleRight12_end
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15/tentacleRight16
+        weight: 1
+      - path: OctopusSkeleton/Head/tentacleRight13/tentacleRight14/tentacleRight15/tentacleRight16/tentacleRight16_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

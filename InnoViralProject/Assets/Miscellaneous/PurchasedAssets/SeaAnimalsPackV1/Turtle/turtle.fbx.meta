@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: e80f9c041edd03f43acc66f5468055ea
+timeCreated: 1481793526
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Head
+    100004: Head_end
+    100006: PawLeft1
+    100008: PawLeft2
+    100010: PawLeft2_end
+    100012: PawLeft3
+    100014: PawLeft4
+    100016: PawLeft4_end
+    100018: PawRight1
+    100020: PawRight2
+    100022: PawRight2_end
+    100024: PawRight3
+    100026: PawRight4
+    100028: PawRight4_end
+    100030: tail
+    100032: tail_end
+    100034: //RootNode
+    100036: turtle
+    100038: turtleLOD
+    100040: turtleSkeleton
+    400000: Body
+    400002: Head
+    400004: Head_end
+    400006: PawLeft1
+    400008: PawLeft2
+    400010: PawLeft2_end
+    400012: PawLeft3
+    400014: PawLeft4
+    400016: PawLeft4_end
+    400018: PawRight1
+    400020: PawRight2
+    400022: PawRight2_end
+    400024: PawRight3
+    400026: PawRight4
+    400028: PawRight4_end
+    400030: tail
+    400032: tail_end
+    400034: //RootNode
+    400036: turtle
+    400038: turtleLOD
+    400040: turtleSkeleton
+    4300000: turtleLOD
+    4300002: turtle
+    7400000: death
+    7400002: eat
+    7400004: idle swim
+    7400006: turtleSkeleton|pose
+    7400008: protection
+    7400010: walk
+    7400012: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: turtle
+    13700002: turtleLOD
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: turtleSkeleton|death
+      firstFrame: 0
+      lastFrame: 149
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: turtle
+        weight: 1
+      - path: turtleLOD
+        weight: 1
+      - path: turtleSkeleton
+        weight: 1
+      - path: turtleSkeleton/Body
+        weight: 1
+      - path: turtleSkeleton/Body/Head
+        weight: 1
+      - path: turtleSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1/PawLeft2
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3/PawLeft4
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3/PawLeft4/PawLeft4_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3/PawRight4
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: turtleSkeleton/Body/tail
+        weight: 1
+      - path: turtleSkeleton/Body/tail/tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: turtleSkeleton|eat
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: turtle
+        weight: 1
+      - path: turtleLOD
+        weight: 1
+      - path: turtleSkeleton
+        weight: 1
+      - path: turtleSkeleton/Body
+        weight: 1
+      - path: turtleSkeleton/Body/Head
+        weight: 1
+      - path: turtleSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1/PawLeft2
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3/PawLeft4
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3/PawLeft4/PawLeft4_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3/PawRight4
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: turtleSkeleton/Body/tail
+        weight: 1
+      - path: turtleSkeleton/Body/tail/tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle swim
+      takeName: turtleSkeleton|idle swim
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: turtle
+        weight: 1
+      - path: turtleLOD
+        weight: 1
+      - path: turtleSkeleton
+        weight: 1
+      - path: turtleSkeleton/Body
+        weight: 1
+      - path: turtleSkeleton/Body/Head
+        weight: 1
+      - path: turtleSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1/PawLeft2
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3/PawLeft4
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3/PawLeft4/PawLeft4_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3/PawRight4
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: turtleSkeleton/Body/tail
+        weight: 1
+      - path: turtleSkeleton/Body/tail/tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: protection
+      takeName: turtleSkeleton|protection
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: turtle
+        weight: 1
+      - path: turtleLOD
+        weight: 1
+      - path: turtleSkeleton
+        weight: 1
+      - path: turtleSkeleton/Body
+        weight: 1
+      - path: turtleSkeleton/Body/Head
+        weight: 1
+      - path: turtleSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1/PawLeft2
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3/PawLeft4
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3/PawLeft4/PawLeft4_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3/PawRight4
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: turtleSkeleton/Body/tail
+        weight: 1
+      - path: turtleSkeleton/Body/tail/tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: turtleSkeleton|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: turtle
+        weight: 1
+      - path: turtleLOD
+        weight: 1
+      - path: turtleSkeleton
+        weight: 1
+      - path: turtleSkeleton/Body
+        weight: 1
+      - path: turtleSkeleton/Body/Head
+        weight: 1
+      - path: turtleSkeleton/Body/Head/Head_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1/PawLeft2
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft1/PawLeft2/PawLeft2_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3/PawLeft4
+        weight: 1
+      - path: turtleSkeleton/Body/PawLeft3/PawLeft4/PawLeft4_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1/PawRight2
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight1/PawRight2/PawRight2_end
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3/PawRight4
+        weight: 1
+      - path: turtleSkeleton/Body/PawRight3/PawRight4/PawRight4_end
+        weight: 1
+      - path: turtleSkeleton/Body/tail
+        weight: 1
+      - path: turtleSkeleton/Body/tail/tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
